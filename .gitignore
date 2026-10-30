@@ -1,0 +1,17 @@
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Database
+db.sqlite3
+
+# Environment variables / secrets
+.env
+
+# Django generated files
+media/
+staticfiles/
+*.log
+
+# Editor / OS files
+.vscode/

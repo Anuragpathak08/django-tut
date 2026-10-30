@@ -1,0 +1,9 @@
+{% extends "include/base.html" %}
+{% block main %}
+    <h1>Hobbies</h1>
+    <ul>
+        {%for hobby in hobbies %}
+        <li>{{ hobby }}</li>
+        {% endfor %}
+    </ul>
+{% endblock main %} 
